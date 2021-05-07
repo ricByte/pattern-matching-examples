@@ -6,7 +6,13 @@ A series of pattern matching examples in Typescript
 
 TL;DR
 
-story
+This POC was born during my experiment in Kotlin. I wanted to have `when` pattern matching in Typescript and I don't know how to do it.
+
+Now I know how to do it
+
+![Bazinga](https://media.giphy.com/media/CV61LRKyQf6P6/giphy.gif)
+
+You will find the solutions under `src` folder with the corrective tests
 
 ## Project Structure
 
