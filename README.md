@@ -2,13 +2,13 @@
 
 A series of pattern matching examples in Typescript
 
-### Background
+## Background
 
 TL;DR
 
 story
 
-### Project Structure
+## Project Structure
 
 ```shell
 
@@ -31,17 +31,56 @@ story
 
 ```
 
-### Dependencies
+## Usage
 
-### List of examples
+### Build
 
-1. Vanilla
-2. Verbose
-3. `ts-adt`
+```
+yarn build
+```
+
+Outputed into `lib/`.
+
+### Test
+
+```
+yarn test
+```
+
+### Coverage
+
+```
+yarn coverage
+```
+
+Open `coverage/lcov-report/index.html` in a browser.
+
+## Dependencies
+### TypeScript
+
+`yarn build` transpiles the source codes from `src/` to `lib/`.
+
+See `tsconfig.json`.
+
+### husky & lint-staged
+
+husky provides hooks for git, e.g. pre-commit, pre-push.
+
+lint-staged gives the git staging files to any command.
+
+You can format and lint the source codes with them before they are commited.
+
+See `package.json` and `.lintstagedrc.json`.
+
+### Jest(ts-jest)
+
+Jest is a test runner.
+
+ts-jest let Jest run `.ts` files.
 
 ### Contributors
 
-Io
+Riccardo Vecchi(reackonly)
 
 ### Licence
 
