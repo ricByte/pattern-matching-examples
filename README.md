@@ -1,4 +1,4 @@
-# PATTERN MATCHING in TS
+# PATTERN MATCHING in Typescript
 
 A series of pattern matching examples in Typescript
 
