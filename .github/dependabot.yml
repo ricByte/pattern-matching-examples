@@ -3,5 +3,6 @@ target-branch: "v.0.0.2"
 updates:
   - package-ecosystem: "npm"
     directory: "/"
-    schedule: 
+    schedule:
       interval: "daily"
+    target-branch: "v0.0.2"
