@@ -1,6 +1,6 @@
 {
   "name": "pattern-matching-examples",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A set of exmples with typescript",
   "license": "MIT",
   "author": "Riccardo Vecchi",
@@ -23,11 +23,11 @@
   },
   "devDependencies": {
     "@types/jest": "26.x.x",
-    "@types/node": "15.x.x",
-    "concurrently": "6.x.x",
+    "@types/node": "18.x.x",
+    "concurrently": "7.x.x",
     "husky": "6.x.x",
     "jest": "26.x.x",
-    "lint-staged": "10.x.x",
+    "lint-staged": "13.x.x",
     "prettier": "2.x.x",
     "rimraf": "3.0.x",
     "sort-package-json": "1.x.x",
@@ -36,9 +36,9 @@
     "tslint": "6.x.x",
     "tslint-config-prettier": "1.x.x",
     "tslint-plugin-prettier": "2.x.x",
-    "typescript": "4.x.x"
+    "typescript": "4.9.5"
   },
   "engines": {
-    "node": ">=14"
+    "node": ">=18"
   }
 }
