@@ -30,7 +30,7 @@
     "lint-staged": "13.x.x",
     "prettier": "2.x.x",
     "rimraf": "4.4.x",
-    "sort-package-json": "1.x.x",
+    "sort-package-json": "2.x.x",
     "ts-adt": "2.x.x",
     "ts-jest": "26.x.x",
     "tslint": "6.x.x",
